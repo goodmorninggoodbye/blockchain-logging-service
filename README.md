@@ -142,23 +142,6 @@ YYYY-MM-DD HH:MM:SS - <previous-hash> <message-content>
 - **Modular Design**: Separate concerns for hashing, networking, and blockchain logic
 - **Standards Compliance**: POSIX-compatible networking and file operations
 
-## Use Cases
-
-### Security Monitoring
-- **Audit Trails**: Tamper-evident logs for compliance and forensic analysis
-- **Intrusion Detection**: Immutable security event logging with cryptographic integrity
-- **Compliance Reporting**: Verifiable log chains for regulatory requirements
-
-### Financial Systems
-- **Transaction Logging**: Immutable financial transaction records
-- **Regulatory Compliance**: Tamper-evident audit trails for financial institutions
-- **Fraud Detection**: Cryptographically secured transaction history
-
-### Healthcare & Government
-- **HIPAA Compliance**: Secure medical record access logging
-- **Government Auditing**: Tamper-evident government operation logs
-- **Legal Evidence**: Cryptographically verifiable digital evidence chains
-
 ## Code Quality Features
 
 - **Memory Management**: Comprehensive malloc/free pairing with leak detection
