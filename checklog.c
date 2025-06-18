@@ -6,7 +6,6 @@
 
 #define MAX_LINE_LENGTH 1024
 
-// Function prototypes
 static char* compute_hash(const char* line);
 static int validate_log_line(const char* line, const char* expected_hash, int line_number);
 static char* extract_hash(const char* line);
